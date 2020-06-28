@@ -1,1 +1,1 @@
-# jewgleofficial .github.io
+# jewgleofficial.github.io
