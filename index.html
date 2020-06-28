@@ -1,0 +1,75 @@
+<!DOCTYPE htlm>
+
+<html>
+
+  <head>
+    
+    <link href="assets/images/star_of_david.png" rel="icon" type="image/png" />
+    <link href="assets/css/style-generic.css" rel="stylesheet" type="text/css" />
+    
+    <title>Jewgle</title>
+    
+  </head>
+
+  <body>
+  
+    <div id="header">
+      
+      <ul>
+        
+        <li class="jewgle-thing"><a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+        <li class="jewgle-thing"><a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a></li>
+        <li class="account"><a href="http://www.jewtube.com/"><img id="jewtube-logo" src="assets/images/jewtube.jpg" /></a></li>
+        <li class="account"><a href="https://www.google.com/imghp?hl=en&tab=wi">Images</a></li>
+        <li class="account"><a href="https://mail.google.com/mail/?tab=wm">Mail</a></li>
+        
+      </ul>
+      
+    </div>
+    
+    <div id="search">
+      
+      <center>
+        
+        <img id="jewgle-logo" src="assets/images/jewgle.gif" alt="Jewgle" />
+        
+        <br/>
+        
+          <label for="searchbar" id="searchbar-container">
+            
+            <input type="text" id="searchbar" name="search" placeholder="Jewgle Search" onkeypress="searchEnter(event);" width="350" height="175" />
+          
+          </label>
+        
+        <br/>
+        
+        <input type="button" id="search-button" value="Jewgle Search" onclick="search();" />
+        <input type="button" id="feeling-lucky" value="I'm feeling like a Jew" onclick="toggleTranslate();" />
+        
+        <br/>
+        
+        <a id="fam_tree" href="https://www.ushmm.org/wlc/en/article.php?ModuleId=10005143">family tree</a>
+                   
+      </center>
+      
+    </div>
+    
+    <div id="footer">
+      
+      <ul>
+        
+        <li class="business"><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+        <li class="business"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+        <li class="options"><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+        <li class="options"><a href="https://www.google.com/intl/en_us/policies/terms/?fg=1">Terms</a></li>
+        <li class="options"><a href="https://www.google.com/intl/en_us/policies/privacy/?fg=1">Privacy</a></li>
+        
+      </ul>
+      
+    </div>
+    
+    <script src="assets/scripts/search.js"></script>
+    
+  </body>
+
+</html>

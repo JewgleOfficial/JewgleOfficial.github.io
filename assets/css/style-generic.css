@@ -1,0 +1,142 @@
+* {
+  font-family: arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  padding: 0px 10px;
+  font-size: 13px;
+  color: #9b9b9b;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #9b9b9b;
+}
+
+li {
+  display: inline;
+}
+
+#fam_tree {
+  margin-top: 20px;
+  color: blue;
+}
+
+#jewtube-logo {
+  height: 25px;
+  width: 58px;
+}
+
+#header {
+  width: 100%;
+  padding: 17px 0px;
+}
+
+#footer {
+  border-top: 1px solid #d9dbde;
+  background-color: #f2f4f7;
+  position: fixed;
+  padding: 6px 0px;
+  width: 100%;
+  bottom: 0px;
+}
+
+#jewgle-logo {
+  margin-left: 6%;
+  margin-top: 10%;
+}
+
+#searchbar-container {
+  display: inline-block;
+  box-shadow: 0 0 3px #ccc;
+  border-radius: 3px;
+  margin-top: 50px;
+  height: 44px;
+  width: 589px;
+}
+
+#searchbar-container:hover {
+  display: inline-block;
+  box-shadow: 0 0 6px #ccc;
+  border-radius: 3px;
+  margin-top: 50px;
+  height: 44px;
+  width: 589px;
+}
+
+#searchbar {
+  border-style: none;
+  padding-top: 10px;
+  outline: none;
+  height: 34px;
+  width: 559px;
+}
+
+#search-button {
+  margin-top: 20px;
+  height: 36px;
+  padding: 1px 16px;
+  background-color: #f2f4f7;
+  border-radius: 3px;
+  border-style: none;
+  font-weight: bold;
+  color: #9b9b9b;
+  outline: none;
+}
+
+#feeling-lucky {
+  margin-top: 20px;
+  height: 36px;
+  padding: 1px 16px;
+  background-color: #f2f4f7;
+  border-radius: 3px;
+  border-style: none;
+  font-weight: bold;
+  color: #9b9b9b;
+  outline: none;
+}
+
+#search-button:hover {
+  margin-top: 20px;
+  height: 36px;
+  padding: 0px 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #000000;
+  outline: none;
+}
+
+#feeling-lucky:hover {
+  margin-top: 20px;
+  height: 36px;
+  padding: 0px 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #000000;
+  outline: none;
+}
+
+.jewgle-thing {
+  color: #000;
+  float: left;
+}
+
+.account {
+  color: #000;
+  float: right;
+}
+
+.business {
+  float: left;
+}
+
+.options {
+  float: right;
+}
