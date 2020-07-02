@@ -40,7 +40,7 @@ const REDIRECTS = {
   "lilpimp": "lil-pimp/",
   "lilp": "lil-pimp/",
   
-  // Me
+  // Dad
   "avocado": "assets/images/avocado.jpg"
 }
 
